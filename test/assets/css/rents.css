@@ -1,0 +1,23 @@
+.search{
+    position: relative;
+}
+.search input{
+    height: auto;
+    text-indent: 25px;
+    border: 1px solid #d6d4d4;
+
+
+}
+.search input:focus{
+
+    box-shadow: none;
+    border: 1px solid #f6c23e;
+}
+
+.search button{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: auto;
+    background:#f6c23e;
+}

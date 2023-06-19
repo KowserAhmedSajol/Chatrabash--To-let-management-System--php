@@ -1,0 +1,37 @@
+#im4 {
+  transform: rotate(90deg);
+}
+
+#im-1 {
+  transform: rotate(270deg);
+}
+
+
+#schedule_link_mobile{
+  display: none;
+}
+#schedule_link_pc{
+  display: inline-block;
+}
+@media only screen
+and (max-device-width : 667px)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio : 2)
+{
+  #schedule_link_mobile{
+    display: inline-block;
+  }
+
+  #schedule_link_pc{
+    display: none;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+#nameeos {
+  margin-top: 40px;color: var(--bs-indigo);
+  padding-right: 0px;padding-bottom: 10px;
+  text-align: center;
+}
